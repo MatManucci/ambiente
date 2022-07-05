@@ -55,3 +55,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 ssh-keygen -t rsa
 
 cat .ssh/id_rsa.pub 
+
+# after clone the projects use 
+
+sudo chown -R $USER:$USER .
