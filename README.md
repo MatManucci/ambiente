@@ -50,6 +50,10 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
+# pg admin and postgres
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo systemctl start postgresql.service
 # conectar via ssh
 
 ssh-keygen -t rsa
