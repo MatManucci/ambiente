@@ -47,6 +47,22 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
+# PGadmin 4
+#Adiciona uma chave
+curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+
+#Cria repositório para o arquivo e atualiza
+sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+
+#Instala o pgadmin4 
+sudo apt install pgadmin4
+
+#Instala o pgadmin4 para usar no desktop
+sudo apt install pgadmin4-desktop
+
+#Instala o pgadmin4 para usar no browser
+sudo apt install pgadmin4-web 
+
 # conectar via ssh
 
 ssh-keygen -t rsa
