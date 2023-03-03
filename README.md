@@ -13,6 +13,8 @@ sudo apt-get install git-all
 
 sudo apt-get update
 
+sudo apt-get install gnupg
+
  sudo apt-get install \
     ca-certificates \
     curl \
