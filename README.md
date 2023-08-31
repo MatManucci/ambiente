@@ -41,6 +41,8 @@ sudo apt-get install terminator
 
 sudo apt-get install zsh
 
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
 # Chrome
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
