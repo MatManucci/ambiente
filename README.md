@@ -69,7 +69,7 @@ sudo apt install pgadmin4-web
 
 ssh-keygen -t rsa
 
-cat .ssh/id_rsa.pub 
+cat ~/.ssh/id_rsa.pub 
 
 # after clone the projects use 
 
